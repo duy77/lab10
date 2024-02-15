@@ -1,0 +1,59 @@
+x = ['a', 20, 30, 40]
+# # iteration variable i
+i = 0
+while i < len(x):
+    print(i)
+    #print(x[i])
+    i = i + 1
+# i is the iterator
+#for i in x:
+    #print(i)
+    
+s = [1, 2, 3, 4]
+s = s * 2 # might give you a semantic error
+# this is not a multiplication s = [2, 4, 6, 8]
+print(s)
+#t = [4, 5, 6]
+#print(s+t)
+
+
+nums = [3, 41, 12, 9, 74, 15]
+print(len(nums))
+print(max(nums))
+print(min(nums))
+print(sum(nums))
+print(sum(nums)/len(nums))
+
+#mylist = ['rully', '201', 'someone else']
+#for item in mylist:
+#    print(item)
+
+name = 'rully'
+course = '201'
+
+person = {'name': name,'course': course,'name': 'someone else'}
+for key in person:
+     #print(key)
+     print(person[key])
+# # items returns a list of key-value pairs
+# for key, value in person.items():
+# print(key, value)
+# # keys, values, items are all list-like objects
+# print(person.keys())
+# print('name' in person.keys())
+# print(person.values())
+# print(person.items()) # return a list of key-value pairs
+
+
+
+cheeses = ['Cheddar', 'Edam', 'Gouda']
+cheeses.remove('Edam')
+cheeses.append('Brie')
+print(cheeses)
+for cheese in cheeses:
+    print(cheese)
+
+mylist = ['rully', '201', 'someone else']
+for item in mylist:
+    print('\n',item)
+
