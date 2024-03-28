@@ -1,0 +1,33 @@
+{
+  "PNC bank": 
+  {
+    "customers": [
+      {
+        "id": "1",
+        "first_name": "john",
+        "last_name": "smith"
+      },
+      {
+        "id": "2",
+        "first_name": "jane",
+        "last_name": "Doe"
+      }
+    ],
+
+    "accounts": [
+      {
+        "account_id": 1,
+        "balance": 5000
+      },
+      {
+        "account_id": 2,
+        "balance": 7000
+      }
+    ],
+
+    "Bank": {
+      "customers": [],
+      "accounts": []
+    }
+  }
+}

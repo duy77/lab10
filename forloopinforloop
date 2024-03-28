@@ -1,0 +1,22 @@
+
+
+
+
+pets_in_store = ['dog', 'cat', 'goldfish', 'rabbit', 'bird']
+pets_i_like = ['cat', 'dog', 'ant']
+
+total_iterations = 0
+pet_i_could_have = ''
+
+for pet in pets_in_store: # Outer loop
+    
+    for pet_i_want in pets_i_like: # Inner loop
+        
+        total_iterations += 1
+        
+        print("Iteration-" + str(total_iterations))
+        
+        if pet == pet_i_want:
+            pet_i_could_have = pet_i_could_have + ' ' + pet
+
+print("I want" + pet_i_could_have + "!")
